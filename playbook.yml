@@ -1,0 +1,8 @@
+---
+- name: popping up nginx and openresty containers
+  hosts: all
+
+  tasks:
+    - name: install docker
+      command: "echo hi"
+  
